@@ -2,6 +2,8 @@
 
 ## I'm a data analyst with a keen eye for design and user experience.
 
+![](Dashboard_Screenshots/central_overview.png)
+
 - 📊 Data visualization is my forte. See my [Tableau] page! 
 - 🚀 Most of what you see here is Tableau, Python, and Figma
 - 🧠 I'm interested in how our social climate and media trends influence marketing needs
