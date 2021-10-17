@@ -8,12 +8,14 @@
 - ⛳ A nice quote: "If it's worth doing, it's worth doing well"
 
 ![](Dashboard_Screenshots/central_overview.png)
+![](Dashboard_Screenshots/loyalty_groups.png)
 ![](Dashboard_Screenshots/kmeans_clustering.png)
 ![](Dashboard_Screenshots/rfm_matrix.png)
 ![](Dashboard_Screenshots/rfm_scoring_key.png)
 ![](Dashboard_Screenshots/sales_distribution.png)
 ![](Dashboard_Screenshots/segment_details.png)
 ![](Dashboard_Screenshots/ternary_graph.png)
+
 
 </details>
 
