@@ -30,7 +30,7 @@ The dashboard displays a scatter plot of k-means clusters at the level of Custom
 | **Churning** | Low R/F/M | 111, 112 | lowest RFM values, likely receptive to competitor-focused targeting
 
 ![](Dashboard_Screenshots/loyalty_groups.png)
-![](Dashboard_Screenshots/kmeans_clustering.png)
+
 
 
 ## Data Insights
@@ -41,10 +41,27 @@ Initially, it was assumed that many High-Spend customers were one-off bargain-sh
 After reviewing our data, we arrived at a different conclusion. 
 
 - The average discount of High-Spend customers was well below the mean: 13.88% < 15.75%. 
+
 - It was more than just promotions that attracted these customers.
+
 - High-Spend customers strongly preferred Corporate and Consumer Tech products over other categories and segments. Corporate customers likely came became one-time purchasers when outfitting their properties with our products. This knowledge will give us the precision to target these customers more successfully.
 ![](Dashboard_Screenshots/kpi_grid.png)
 
+
+**Grouping and Clustering**
+
+- These graphs aim to give perspective to the varying loyalty groups as we compare and contrast them. 
+Similar to RFM scores, clusters are graded on an increasing scale from 1-4..
+
+- Silver and Gold are the most influential groups with regards to total profit.
+Platinum and High-Spend are the most valuable per customer.
+
+- K-means clustering displays the variance within groups and where they overlap. 
+
+- Parts of High-Spend, Silver and Churn Risk all belong to Cluster 3 (hover to see tooltip) - our model interprets each group to be statistically similar to a certain degree. With proper targeting, Silver is a group we'd aim to grow and maintain. A future comparison will ideally show the "fringe" customers of High-Spend and Churn Risk to have ultimately moved into the Silver group. 
+
+![](Dashboard_Screenshots/kmeans_clustering.png)
+![](Dashboard_Screenshots/highspend_cust.png)
 
 ![](Dashboard_Screenshots/rfm_matrix.png)
 ![](Dashboard_Screenshots/rfm_scoring_key.png)
