@@ -43,7 +43,7 @@ After reviewing our data, we arrived at a different conclusion.
 - The average discount of High-Spend customers was well below the mean: 13.88% < 15.75%. 
 - It was more than just promotions that attracted these customers.
 - High-Spend customers strongly preferred Corporate and Consumer Tech products over other categories and segments. Corporate customers likely came became one-time purchasers when outfitting their properties with our products. This knowledge will give us the precision to target these customers more successfully.
-
+![](Dashboard_Screenshots/kpi_grid.png)
 
 
 ![](Dashboard_Screenshots/rfm_matrix.png)
