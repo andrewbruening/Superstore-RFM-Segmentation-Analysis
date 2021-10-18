@@ -19,23 +19,32 @@ This readme includes various screenshots, but you can see the actual [dashboard]
 
 The dashboard displays a scatter plot of k-means clusters at the level of Customer-ID. K-means aside, we've also used a segmentation model to categorize our customers into various "loyalty" segments.
 
--  are the highest-scoring, most loyal customers
--  customers are 
--  customers 
-- 
 | Loyalty | Requirement | Score e.g. | Description |
 | :--------- | :--------- | :--------- | :--------- |
-| 1. **Platinum** | All scores = 4 | 444 | highest-scoring, most loyal customers
-| 2. **Gold** | All scores >= 3 | 333,344 | very loyal, second only to Platinum
-| 3. **Silver** | Moderate R/F/M | 133,324 | represents the dependable majority
-| 4. **New** | High R; Low M | 411,431 | made their first purchase recently, or their first purchase in a very long time
-| 5. **High-Spend** | High M; Low R/F | 113,214 | top 25% of sales, large purchases but very infrequent, not considered loyal
-| 6. **Churn Risk** | Moderate M/F; Low R | 122,133 | no recent purchases, at risk of defecting to competition
-| 7. **Churning** | Low R/F/M | 111,112 | lowest RFM values, likely receptive to competitor-focused targeting
-
+| **Platinum** | All scores = 4 | 444 | highest-scoring, most loyal customers
+| **Gold** | All scores >= 3 | 333, 344 | very loyal, second only to Platinum
+| **Silver** | Moderate R/F/M | 133, 324 | represents the dependable majority
+| **New** | High R; Low M | 411, 431 | made their first purchase recently, or their first purchase in a very long time
+| **High-Spend** | High M; Low R/F | 113, 214 | top 25% of sales, large purchases but very infrequent, not considered loyal
+| **Churn Risk** | Moderate M/F; Low R | 122, 133 | no recent purchases, at risk of defecting to competition
+| **Churning** | Low R/F/M | 111, 112 | lowest RFM values, likely receptive to competitor-focused targeting
 
 ![](Dashboard_Screenshots/loyalty_groups.png)
 ![](Dashboard_Screenshots/kmeans_clustering.png)
+
+
+## Data Insights
+
+**High-Spend Corporate Tech**
+Initially, it was assumed that many High-Spend customers were one-off bargain-shoppers. 
+After reviewing our data, we arrived at a different conclusion. 
+
+- The average discount of High-Spend customers was well below the mean: 13.88% < 15.75%. 
+- It was more than just promotions that attracted these customers.
+- High-Spend customers strongly preferred Corporate and Consumer Tech products over other categories and segments. Corporate customers likely came became one-time purchasers when outfitting their properties with our products. This knowledge will give us the precision to target these customers more successfully.
+
+
+
 ![](Dashboard_Screenshots/rfm_matrix.png)
 ![](Dashboard_Screenshots/rfm_scoring_key.png)
 ![](Dashboard_Screenshots/sales_distribution.png)
