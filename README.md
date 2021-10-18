@@ -1,15 +1,14 @@
 ### Hey! I'm Andrew. Welcome to my [Github] 👋
 
-## RFM Customer Segmentation in Python and Data Visualization in Tableau
-
 - 📊 Data visualization is my forte. See my [Tableau] page! 
 - 🚀 Most of what you see here is Tableau, Python, and Figma
 - 🧠 I'm interested in how our social climate and media trends influence marketing needs
 - ⛳ A nice quote: "If it's worth doing, it's worth doing well"
 
+## RFM Customer Segmentation in Python and Data Visualization in Tableau
 
 ![](Dashboard_Screenshots/central_overview.png)
-This readme includes various screenshots, but you can see the actual [dashboard] here.
+This readme includes various screenshots, but you can see the actual dashboard [here].
 
 ## Approach
 1. The dataset required basic data cleaning and restructuring via Python. RFM modeling was done by manually assigning customer loyalty groups to various combinations of R/F/M values ranked from 1-4 (4 being the highest).
