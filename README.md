@@ -7,8 +7,9 @@
 - 🧠 I'm interested in how our social climate and media trends influence marketing needs
 - ⛳ A nice quote: "If it's worth doing, it's worth doing well"
 
-This readme includes various screenshots, but you can see the actual [dashboard] here.
+
 ![](Dashboard_Screenshots/central_overview.png)
+This readme includes various screenshots, but you can see the actual [dashboard] here.
 
 ## Approach
 1. The dataset required basic data cleaning and restructuring via Python. RFM modeling was done by manually assigning customer loyalty groups to various combinations of R/F/M values ranked from 1-4 (4 being the highest).
@@ -29,7 +30,7 @@ The dashboard displays a scatter plot of k-means clusters at the level of Custom
 | **Churn Risk** | Moderate M/F; Low R | 122, 133 | Low | no recent purchases, at risk of defecting to competition
 | **Churning** | Low R/F/M | 111, 112 | Low | lowest RFM values, likely receptive to competitor-focused targeting
 
-![](Dashboard_Screenshots/loyalty_groups.png)
+![](Dashboard_Screenshots/loyalty_groups_16x9.png)
 
 
 
@@ -95,21 +96,11 @@ The size table illustrates categories and segments by proportion of sales.
 ![](Dashboard_Screenshots/segment_details.png)
 
 
-![](Dashboard_Screenshots/rfm_matrix.png)
-![](Dashboard_Screenshots/rfm_scoring_key.png)
-
-
-![](Dashboard_Screenshots/ternary_graph.png)
-
-
-
-
-
-
-
+## See the complete interactive dashboard [here]
 
 </details>
 
 [Tableau]: https://public.tableau.com/app/profile/andrew.bruening
 [Github]: https://github.com/andrewbruening 
 [dashboard]: https://public.tableau.com/app/profile/andrew.bruening/viz/SampleSuperstoreRFMCustomerSegmentation/CentralDB
+[here]: https://public.tableau.com/app/profile/andrew.bruening/viz/SampleSuperstoreRFMCustomerSegmentation/CentralDB
