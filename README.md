@@ -19,15 +19,15 @@ This readme includes various screenshots, but you can see the actual [dashboard]
 
 The dashboard displays a scatter plot of k-means clusters at the level of Customer-ID. K-means aside, we've also used a segmentation model to categorize our customers into various "loyalty" segments.
 
-| Loyalty | Requirement | Score e.g. | Description |
-| :--------- | :--------- | :--------- | :--------- |
-| **Platinum** | All scores = 4 | 444 | highest-scoring, most loyal customers
-| **Gold** | All scores >= 3 | 333, 344 | very loyal, second only to Platinum
-| **Silver** | Moderate R/F/M | 133, 324 | represents the dependable majority
-| **New** | High R; Low M | 411, 431 | made their first purchase recently, or their first purchase in a very long time
-| **High-Spend** | High M; Low R/F | 113, 214 | top 25% of sales, large purchases but very infrequent, not considered loyal
-| **Churn Risk** | Moderate M/F; Low R | 122, 133 | no recent purchases, at risk of defecting to competition
-| **Churning** | Low R/F/M | 111, 112 | lowest RFM values, likely receptive to competitor-focused targeting
+| Loyalty | Requirement | Score e.g. | Tier | Description |
+| :--------- | :--------- | :--------- | :--------- | :--------- |
+| **Platinum** | All scores = 4 | 444 | High | highest-scoring, most loyal customers
+| **Gold** | All scores >= 3 | 333, 344 | High | very loyal, second only to Platinum
+| **Silver** | Moderate R/F/M | 133, 324 | High | represents the dependable majority
+| **New** | High R; Low M | 411, 431 | Low | made their first purchase recently, or their first purchase in a very long time
+| **High-Spend** | High M; Low R/F | 113, 214 | Low | top 25% of sales, large purchases but very infrequent, not considered loyal
+| **Churn Risk** | Moderate M/F; Low R | 122, 133 | Low | no recent purchases, at risk of defecting to competition
+| **Churning** | Low R/F/M | 111, 112 | Low | lowest RFM values, likely receptive to competitor-focused targeting
 
 ![](Dashboard_Screenshots/loyalty_groups.png)
 
@@ -50,11 +50,9 @@ After reviewing our data, we arrived at a different conclusion.
 
 **Grouping and Clustering**
 
-- These graphs aim to give perspective to the varying loyalty groups as we compare and contrast them. 
-Similar to RFM scores, clusters are graded on an increasing scale from 1-4..
+These graphs aim to give perspective to the varying loyalty groups as we compare and contrast them. Similar to RFM scores, clusters are graded on an increasing scale from 1-4..
 
-- Silver and Gold are the most influential groups with regards to total profit.
-Platinum and High-Spend are the most valuable per customer.
+- Silver and Gold are the most influential groups with regards to total profit. Platinum and High-Spend are the most valuable per customer.
 
 - K-means clustering displays the variance within groups and where they overlap. 
 
@@ -63,10 +61,44 @@ Platinum and High-Spend are the most valuable per customer.
 ![](Dashboard_Screenshots/kmeans_clustering.png)
 ![](Dashboard_Screenshots/highspend_cust.png)
 
+
+**Distribution Comparisons**
+
+The ternary graph illustrates customer representation per RFM score.
+Switch the graph to off to view the distribution as a matrix.
+
+- The dropdown menu above the ternary graph filters results by loyalty groups. The High and Low options reflect the tiers of each group and correspond to a column value in the RFM Scoring Key.
+
+- Color saturation in the RFM matrix is directly correlated to monetary (M) values of each cell. While the lowest RFM scores (111) reflect low monetary values, Churning still represents 10% of our customers.
+
+![](Dashboard_Screenshots/matrix_ternary.png)
+
+
+**YoY Comparison**
+
+In November and December of 2018, Churning customers were responsible for a total of $0.00 in sales.
+
+- This is a sign that we need to conduct our customer retention efforts differently - especially during the holiday season. 2017 performance during these same months was much higher, mostly due to Consumer Furniture purchases.
+
+![](Dashboard_Screenshots/sales_distribution.png)
+
+
+**B2C Prioritization**
+
+The spreadsheet below elaborates on specific values per Customer ID.
+The size table illustrates categories and segments by proportion of sales.
+
+- A large portion of Gold and Silver sales are derived from Consumer products of all segments. Home Office products are consistently the least successful products across the board.
+
+- We previously touched on the success of Corporate and Consumer Technology with High-Spend customers. While a new emphasis on B2B may seem enticing, Corporate Technology sales do not account for a large enough portion of our total sales in order for us to pivot our strategy in that direction. Consumer products should still remain our primary focus.
+
+![](Dashboard_Screenshots/segment_details.png)
+
+
 ![](Dashboard_Screenshots/rfm_matrix.png)
 ![](Dashboard_Screenshots/rfm_scoring_key.png)
-![](Dashboard_Screenshots/sales_distribution.png)
-![](Dashboard_Screenshots/segment_details.png)
+
+
 ![](Dashboard_Screenshots/ternary_graph.png)
 
 
