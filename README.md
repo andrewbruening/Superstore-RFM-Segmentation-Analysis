@@ -36,6 +36,7 @@ The dashboard displays a scatter plot of k-means clusters at the level of Custom
 ## Data Insights
 
 **High-Spend Corporate Tech**
+
 Initially, it was assumed that many High-Spend customers were one-off bargain-shoppers. 
 After reviewing our data, we arrived at a different conclusion. 
 
