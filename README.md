@@ -12,12 +12,18 @@ This readme includes various screenshots, but you can see the actual dashboard [
 
 ## Approach
 1. The dataset required basic data cleaning and restructuring via Python. RFM modeling was done by manually assigning customer loyalty groups to various combinations of R/F/M values ranked from 1-4 (4 being the highest).
+    >   1. Use lambda functions to establish Recency/Frequency/Monetary columns
+    >   2. Split columns into quantiles with df.quantile
+    >   3. Define and two custom functions for scoring through 1-4
+    >       - One function for R scoring, and one for F/M scoring
+    >   4. Apply functions to previously created columns to form new R/F/M *scored* columns
+    >   5. Use for loop to segment RFM varieties into customer loyalty groups
 2. The dashboard was designed in Figma and built in Tableau. It includes the aforementioned loyalty groups as well as a visualization detailing k-means clustering.
 3. Insights were derived from various graphs in the dashboard and noted in both the **data insights** section of this readme, and the tooltips within the dashboard's sidebar.
 
 ## Customer Segmentation and RFM Modeling
 
-The dashboard displays a scatter plot of k-means clusters at the level of Customer-ID. K-means aside, we've also used a segmentation model to categorize our customers into various "loyalty" segments.
+The dashboard displays a scatter plot of k-means clusters at the level of Customer-ID. K-means aside, we've also used a segmentation model to categorize our customers into various "loyalty" segments. (*see Python notebook for code*)
 
 | Loyalty | Requirement | Score e.g. | Tier | Description |
 | :--------- | :--------- | :--------- | :--------- | :--------- |
@@ -30,7 +36,6 @@ The dashboard displays a scatter plot of k-means clusters at the level of Custom
 | **Churning** | Low R/F/M | 111, 112 | Low | lowest RFM values, likely receptive to competitor-focused targeting
 
 ![](Dashboard_Screenshots/loyalty_groups_16x9.png)
-
 
 
 ## Data Insights
