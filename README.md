@@ -36,7 +36,7 @@ The dashboard displays a scatter plot of k-means clusters at the level of Custom
 | **Churn Risk** | Moderate M/F; Low R | 122, 133 | Low | no recent purchases, at risk of defecting to competition
 | **Churning** | Low R/F/M | 111, 112 | Low | lowest RFM values, likely receptive to competitor-focused targeting
 
-![](Dashboard_Screenshots/kmeans_buton_gif.gif)
+![](Dashboard_Screenshots/kmeans_button_gif.gif)
 
 
 ## Data Insights
