@@ -7,7 +7,7 @@
 
 ## RFM Customer Segmentation in Python and Data Visualization in Tableau
 
-![](Dashboard_Screenshots/central_overview.png)
+![](Dashboard_Screenshots/dashboard_gif.gif)
 This readme includes various screenshots, but you can see the actual dashboard [here].
 
 ## Approach
