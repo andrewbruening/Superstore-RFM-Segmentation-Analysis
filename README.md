@@ -15,7 +15,7 @@ This readme includes various screenshots, but you can see the actual dashboard [
  
     >   1. Use lambda functions to establish Recency/Frequency/Monetary columns
     >   2. Split columns into quantiles with df.quantile
-    >   3. Define and two custom functions for scoring through 1-4
+    >   3. Define two custom functions for scoring through 1-4
     >       - One function for R scoring, and one for F/M scoring
     >   4. Apply functions to previously created columns to form new R/F/M *scored* columns
     >   5. Use for loop to segment RFM varieties into customer loyalty groups
