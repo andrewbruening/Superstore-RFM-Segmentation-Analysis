@@ -12,6 +12,7 @@ This readme includes various screenshots, but you can see the actual dashboard [
 
 ## Approach
 1. The dataset required basic data cleaning and restructuring via Python. RFM modeling was done by manually assigning customer loyalty groups to various combinations of R/F/M values ranked from 1-4 (4 being the highest).
+ 
     >   1. Use lambda functions to establish Recency/Frequency/Monetary columns
     >   2. Split columns into quantiles with df.quantile
     >   3. Define and two custom functions for scoring through 1-4
