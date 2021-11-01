@@ -18,7 +18,7 @@ This readme includes various screenshots, but you can see the actual dashboard [
     >   3. Define two custom functions for scoring through 1-4
     >       - One function for R scoring, and one for F/M scoring
     >   4. Apply functions to previously created columns to form new R/F/M *scored* columns
-    >   5. Use for loop to segment RFM varieties into customer loyalty groups
+    >   5. Use *for* loop to segment RFM varieties into customer loyalty groups
 2. The dashboard was designed in Figma and built in Tableau. It includes the aforementioned loyalty groups as well as a visualization detailing k-means clustering.
 3. Insights were derived from various graphs in the dashboard and noted in both the **data insights** section of this readme, and the tooltips within the dashboard's sidebar.
 
